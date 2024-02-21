@@ -1,3 +1,3 @@
 - Equipe : Anis AMROUCHE, Maëlle COQUELET, Viktor GHIRARDELLI
-- URL du site : 
+- URL du site : https://chrologia.netlify.app 
 - URL FIGMA : 
