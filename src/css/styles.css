@@ -5,6 +5,7 @@
 @import "vendors/normalize.css";
 
 /* Variables */
+@import "utils/variables.css";
 
 /* Règles générales */
 @import "base/main.css";
