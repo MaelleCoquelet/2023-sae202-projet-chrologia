@@ -12,5 +12,8 @@
 @import "base/media.css";
 
 /*Règles de Layout */
+@import "layout/footer.css";
+@import "layout/header.css";
+@import "layout/section.css";
 
 /*Règles des Components */

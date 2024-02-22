@@ -10,73 +10,79 @@
 </head>
 
 <body>
-    <header>
-        <a href="#">
-            <img src="" alt="Logo de Chrologia">
+    <header class="header">
+        <a class="header__logo" href="#">
+            <img class="logo__img" src="" alt="Logo de Chrologia">
         </a>
     </header>
-    <main>
-        <section>
-            <div>
-                <h1>Des posts qui résistent à l'épreuve du temps !</h1>
-                <p>Explorez Chronologia ! Votre compagnon qui vous emmène à travers le temps. Planifiez votre
+    <main class="main">
+        <section class="section section--top">
+            <div class="intro">
+                <h1 class="intro__title">Des posts qui résistent à l'épreuve du temps !</h1>
+                <p class="intro__text">Explorez Chronologia ! Votre compagnon qui vous emmène à travers le temps. Planifiez votre
                     publication
                     mensuelle et
                     projetez vos contenus dans le futur !</p>
-                <p>
+                <p class="intro__text">
                     Profitez encore davantage des publications conçues pour être diffusées de manière aléatoire. Votre
                     capsule temporelle
                     vous attendra patiemment, jusqu'à la fin du compte à rebours.
                 </p>
             </div>
-            <div>
-                <p>Inscrivez-vous dès maintenant pour recevoir une réduction de 15% sur notre abonnement à la sortie de
+            <div class="section__content">
+                <p class="section__text">Inscrivez-vous dès maintenant pour recevoir une réduction de 15% sur notre abonnement à la
+                    sortie de
                     Chrologia !</p>
-                <div>
-                    <a href="#">Se Préinscrire</a>
-                    <div>
-                        <p>-15%</p>
+                <div class="section__btn btn">
+                    <a class="btn__text" href="#">Se Préinscrire</a>
+                    <div class="btn__patch">
+                        <p class="btn__patch-text">-15%</p>
                     </div>
                 </div>
             </div>
-            <div>
-                <img src="./public/img/mockup.webp" alt="Exemple de la page de Chrologia">
+            <div class="content_img">
+                <img class="img" src="./public/img/mockup.webp" alt="Exemple de la page de Chrologia">
             </div>
         </section>
-        <div>
-            <h2>Chrologia c'est quoi ?</h2>
-            <div>
-                <img src="./public/icons/icon_share.svg" alt="Icône de partage">
-                <p>Chrologia est la plateforme qui vous permet de partager des publications avec vos amis en explorant
-                    le concept du temps
-                    !
-                </p>
+
+        <section class="section section__clear">
+            <div class="content__list">
+                <h2 class="section__title">Chrologia c'est quoi ?</h2>
+                <div class="list__item">
+                    <img class="item__img" src="./public/icons/icon_share.svg" alt="Icône de partage">
+                    <p class="item__text">Chrologia est la plateforme qui vous permet de partager des publications avec vos amis
+                        en explorant
+                        le concept du temps
+                        !
+                    </p>
+                </div>
+                <div class="list__item">
+                    <img class="item__img" src="./public/icons/icon_pic.svg" alt="Icône d'appareil photo">
+                    <p class="item__text">C'est une manière pour vous de créer une base de souvenir dans votre groupe d’amis. 
+                        Chrologia est conçu pour que vous puissiez vous remémorer vos bons moments plus tard !
+                    </p>
+                </div>
+                <div class="list__item">
+                    <img class="item__img" src="./public/icons/icon_text.svg" alt="Icône de bulle de texte">
+                    <p class="item__text">Créez des publications spontanées et observez leur diffusion différée. Amusez-vous avec
+                        le côté
+                        surprenant voire
+                        inattendu des posts que vous créez pour vous et vos amis !
+                    </p>
+                </div>
             </div>
-            <div>
-                <img src="./public/icons/icon_pic.svg" alt="Icône d'appareil photo">
-                <p>C'est une manière pour vous de créer une base de souvenir dans votre groupe d’amis. 
-                    Chrologia est conçu pour que vous puissiez vous remémorer vos bons moments plus tard !
-                </p>
+            <div class="content__img">
+                <img class="img" src="./public/img/illus_tel.webp" alt="Illustration d'un téléphone avec des applis">
             </div>
-            <div>
-                <img src="./public/icons/icon_text.svg" alt="Icône de bulle de texte">
-                <p>Créez des publications spontanées et observez leur diffusion différée. Amusez-vous avec le côté
-                    surprenant voire
-                    inattendu des posts que vous créez pour vous et vos amis !
-                </p>
-            </div>
-        </div>
-        <div>
-            <img src="./public/img/illus_tel.webp" alt="Illustration d'un téléphone avec des applis">
-        </div>
-        <section>
-            <h2>
+        </section>
+        <section class="section">
+            <h2 class="section__title">
                 Fonctionnalités
             </h2>
-            <div>
-                <img src="./public/icons/illus_reminder.svg" alt="Illustration d'un téléphone avec une horloge">
-                <h3>Reminder</h3>
-                <p>
+            <div class="content content--fonction">
+                <img class="fonction__img" src="./public/icons/illus_reminder.svg" alt="Illustration d'un téléphone avec une horloge">
+                <h3 class="fonction__title">Reminder</h3>
+                <p class="fonction__text">
                     <strong>Reminder</strong>, c'est toute la particularité de notre site !
                     Un système de posts programmés en <strong>différé</strong> !
                     Programmez une publication au début du mois contenant des textes, des vidéos ou des photos !
@@ -87,10 +93,10 @@
                     contenu tout de suite !
                 </p>
             </div>
-            <div>
-                <img src="./public/icons/illus_weekly.svg" alt="Illustration d'un téléphone avec une bulle de texte">
-                <h3>Weekly</h3>
-                <p>
+            <div class="content content--fonction">
+                <img class="fonction__img" src="./public/icons/illus_weekly.svg" alt="Illustration d'un téléphone avec une bulle de texte">
+                <h3 class="fonction__title">Weekly</h3>
+                <p class="fonction__text">
                     <strong>Weekly</strong> est la fonction surprenante de notre site ! Imaginez, créez et partagez vos
                     posts, puis
                     laissez-vous transporter
@@ -103,13 +109,13 @@
             </div>
         </section>
 
-        <section>
-            <h2>FAQ</h2>
-            <div>
-                <h3>
+        <section class="section">
+            <h2 class="section__title">FAQ</h2>
+            <div class="content content--faq">
+                <h3 class="faq__title">
                     Qui sommes-nous ?
                 </h3>
-                <p>
+                <p class="faq__text">
                     Nous sommes trois étudiants en MMI, nous avons développé ce projet dans le cadre de nos études, avec
                     pour ambition de
                     simplifier la vie quotidienne des groupes d'amis. En combinant nos compétences en design,
@@ -121,29 +127,29 @@
                     faciliter l'interaction entre amis.
                 </p>
             </div>
-            <div>
-                <h3>
+            <div class="content content--faq">
+                <h3 class="faq__title">
                     Où et quand puis-je utiliser Chrologia ?
                 </h3>
-                <p>
+                <p class="faq__text">
                     Le site final sera disponible à partir du 14 juin 2024. Chrologia sera compatible avec tous les
                     navigateurs web et sera
                     prochainement disponible sur iOS et Android.
                 </p>
             </div>
-            <div>
-                <h3>
+            <div class="content content--faq">
+                <h3 class="faq__title">
                     Ai-je besoin d'un abonnement ?
                 </h3>
-                <p>
+                <p class="faq__text">
                     Le site est totalement accessible et utilisable gratuitement !
                 </p>
             </div>
-            <div>
-                <h3>
+            <div class="content content--faq">
+                <h3 class="faq__title">
                     Quels sont les avantages de l'abonnement ?
                 </h3>
-                <p>
+                <p class="faq__text">
                     L'abonnement à Chrologia offre une expérience sans publicités pour éviter les distractions. De plus,
                     il offre des
                     avantages tels que la possibilité de programmer jusqu'à 4 reminder par mois et d'utiliser des emojis
@@ -151,11 +157,11 @@
                     réagir aux publications de vos amis.
                 </p>
             </div>
-            <div>
-                <h3>
+            <div class="content content--faq">
+                <h3 class="faq__title">
                     Comment puis-je résilier mon abonnement ?
                 </h3>
-                <p>
+                <p class="faq__text">
                     Pour résilier votre abonnement, il vous suffit de vous rendre dans les paramètres de votre compte et
                     de suivre les
                     instructions de résiliation fournies. Étant donné que les abonnements sont mensuels, si vous annulez
@@ -187,10 +193,10 @@
         </div>
         <div>
             <h4>Liens</h4>
-            <a href="./#">Politique de confidentialité</a>
-            <a href="./#">Conditions d'utilisation</a>
-            <a href="./#">À propos</a>
-            <a href="./#">Nous contacter</a>
+            <a href="./gestion-de-vos-donnees.html#policy">Politique de confidentialité</a>
+            <a href="./gestion-de-vos-donnees.html#cgu">Conditions d'utilisation</a>
+            <a href="./a-propos.html#about">À propos</a>
+            <a href="./a-propos.html#contact">Nous contacter</a>
         </div>
         <div>
             <h4>Contact</h4>
@@ -202,7 +208,8 @@
                 <a href="https://twitter.com/chrolo_gia"><img src="./public/icons/icon_twitter.svg"
                         alt="Logo de X / Twitter"></a>
                 <a href="#"><img src="./public/icons/icon_instagram.svg" alt="Logo d'Instagram"></a>
-                <a href="https://www.linkedin.com/in/chrolo-gia-3584a52b6/"><img src="./public/icons/icon_linkedin.svg" alt="Logo de LinkedIn"></a>
+                <a href="https://www.linkedin.com/in/chrolo-gia-3584a52b6/"><img src="./public/icons/icon_linkedin.svg"
+                        alt="Logo de LinkedIn"></a>
             </div>
         </div>
     </footer>

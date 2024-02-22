@@ -15,3 +15,21 @@ body {
 h1 {
     color: var(--pink);
 }
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+main,
+header,
+footer {
+    margin: 0px 153px;
+}
+
+header {
+    padding: 95px 0px var(--space2) 0px;
+}
