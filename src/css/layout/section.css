@@ -11,3 +11,8 @@
     background-color: var(--white);
     color: var(--dark-blue);
 }
+
+.section__title {
+    font-size: var(--h2);
+    font-weight: var(--semibold);
+}

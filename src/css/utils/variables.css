@@ -7,17 +7,14 @@
     --blue: rgba(48, 69, 88, 1);
 
     /* Text-size styles */
-    /* base size: h1 (64px) */
-    --h1: 1rem;
-    --h2: 0.75rem;
-    --h3: 0.56rem;
-    --body: 0.38rem;
-    /* --body-bold: 0.38rem; */
-    --body-taller: 0.5rem;
-    /* --link: 0.38rem; */
-    --btn: 0.44rem;
-    /* --btn-bold: 0.44rem; */
-    --body-small: 0.28rem;
+/* Text-size styles */
+    --h1: 64px;
+    --h2: 48px;
+    --h3: 36px;
+    --body: 24px;
+    --body-taller: 32px;
+    --body-small: 18px;
+    --btn: 28px;
 
     --semibold: 600; 
 

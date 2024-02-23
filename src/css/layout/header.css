@@ -1,3 +1,4 @@
 .header {
     padding: var(--space1) 153px;
+    background-color: var(--dark-blue);
 }
