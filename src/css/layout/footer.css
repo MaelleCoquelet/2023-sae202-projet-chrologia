@@ -1,12 +1,19 @@
-.footer{background-color: var(--light-blue);}
+.footer {
+    background-color: var(--light-blue);
+    padding: var(--space2) 153px;
+}
 
-.footer__items{}
+.footer__items {
+    display: grid;
+    grid-template-columns: repeat(3, fit-content(295px));
+    grid-gap: 208px;
+}
 
-.footer__title{}
+.footer__item {display: grid;
+grid-template-columns: fit-content;}
 
-.footer__item{}
+.footer__title {}
 
-.footer__link{}
+.footer__link {}
 
-.footer__logo{}
-
+.footer__logo {}
