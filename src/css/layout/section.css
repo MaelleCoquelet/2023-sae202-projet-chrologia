@@ -1,0 +1,13 @@
+.section {
+    padding: var(--space2) 153px;
+}
+
+.section--top {
+    padding: 0px 153px var(--space5) 153px;
+}
+
+.section--pink {
+    padding: var(--space3) 153px;
+    background-color: var(--white);
+    color: var(--dark-blue);
+}
