@@ -17,3 +17,9 @@
 @import "layout/section.css";
 
 /*Règles des Components */
+@import "components/btn.css";
+@import "components/faq.css";
+@import "components/fonction.css";
+@import "components/form.css";
+@import "components/intro.css";
+@import "components/list.css";
