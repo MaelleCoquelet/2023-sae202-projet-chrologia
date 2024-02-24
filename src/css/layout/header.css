@@ -1,4 +1,8 @@
 .header {
-    padding: var(--space1) 153px;
+    padding: var(--space2) 153px var(--space5) 153px;
     background-color: var(--dark-blue);
+}
+
+.header--landing-page {
+    padding: var(--space2) 153px;
 }
