@@ -1,6 +1,8 @@
 .intro__title {
     color: var(--pink);
     padding-bottom: var(--space3);
+    font-size: var(--h1);
+    
 }
 
 .intro__title--landing-page {
@@ -21,4 +23,8 @@
 
 .intro__content--paragraph {
     gap: 0px;
+}
+
+.intro__content--center {
+    align-items: center;
 }

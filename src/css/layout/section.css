@@ -20,4 +20,5 @@
 .section__text {
     font-size: var(--body-taller);
     font-weight: var(--semibold);
+    text-align: center;
 }
