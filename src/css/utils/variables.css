@@ -16,7 +16,10 @@
     --body-small: 20px;
     --btn: 28px;
 
-    --semibold: 600; 
+    --semibold: 600;
+    --bold: 700;  
+
+    --uppercase: uppercase;
 
     --font-sans-serif: "Raleway", sans-serif;
 
