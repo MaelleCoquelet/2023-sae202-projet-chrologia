@@ -23,10 +23,21 @@ h4 {
     padding: 0;
 }
 
-main{
+main {
     background-color: var(--dark-blue);
 }
 
 header {
     padding: 95px 0px var(--space2) 0px;
+}
+
+.link-unstyled {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.list-unstyled {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
