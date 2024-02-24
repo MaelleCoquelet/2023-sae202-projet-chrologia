@@ -1,0 +1,24 @@
+.intro__title {
+    color: var(--pink);
+    padding-bottom: var(--space3);
+}
+
+.intro__title--landing-page {
+    padding-bottom: var(--space1);
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space2);
+}
+
+.intro__content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space1);
+}
+
+.intro__content--paragraph {
+    gap: 0px;
+}
