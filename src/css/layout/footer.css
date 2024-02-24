@@ -6,11 +6,13 @@
 .footer__items {
     display: grid;
     grid-template-columns: repeat(3, fit-content(295px));
-    grid-gap: 208px;
+    gap: 208px;
 }
 
-.footer__item {display: grid;
-grid-template-columns: fit-content;}
+.footer__item {
+    display: grid;
+    grid-template-columns: fit-content;
+}
 
 .footer__title {}
 

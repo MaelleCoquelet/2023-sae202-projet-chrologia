@@ -22,3 +22,15 @@
     font-weight: var(--semibold);
     text-align: center;
 }
+
+.section__content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--space2);
+    justify-content: center;
+    align-items: center;
+}
+
+.section__content--left {
+    grid-template-columns: 1fr 2fr;
+}
