@@ -15,6 +15,7 @@
 .section__title {
     font-size: var(--h2);
     font-weight: var(--semibold);
+    padding-bottom: var(--space3);
 }
 
 .section__text {
@@ -33,4 +34,18 @@
 
 .section__content--left {
     grid-template-columns: 1fr 2fr;
+}
+
+.section__content--center {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.content__center {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space1);
 }
