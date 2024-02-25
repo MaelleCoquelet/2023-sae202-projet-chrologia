@@ -2,4 +2,5 @@
     width: 70%;
     max-width: 25vw;
     height: auto;
+    min-width: 20vw;
 }
