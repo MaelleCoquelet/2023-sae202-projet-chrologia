@@ -56,25 +56,3 @@
     justify-content: center;
     gap: var(--space4);
 }
-
-.content__fonction {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space3);
-    align-items: center;
-    justify-content: center;
-}
-
-.fonction__text {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space1);
-    align-items: center;
-    justify-content: center;
-}
-
-.fonction__img {
-    width: auto;
-    max-width: 11vw;
-    height: auto;
-}

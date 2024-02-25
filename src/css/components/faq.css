@@ -1,0 +1,20 @@
+.faq__question,
+.faq__text {
+    padding: 24px 17px;
+}
+
+.faq__question:hover {
+    cursor: pointer;
+    background-color: var(--light-blue);
+}
+
+.faq__text {
+    background-color: var(--blue);
+}
+
+.faq__question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid var(--light-blue);
+}
