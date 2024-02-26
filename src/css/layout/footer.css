@@ -38,3 +38,7 @@
 .footer__link--unstyled {
     border-bottom: none;
 }
+/* Les lignes de code ci-dessous servent à cacher l'icône de calendrier mise par défaut */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
