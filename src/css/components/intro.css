@@ -2,11 +2,12 @@
     color: var(--pink);
     padding-bottom: var(--space3);
     font-size: var(--h1);
-    
+    text-align: center;
 }
 
 .intro__title--landing-page {
     padding-bottom: var(--space1);
+    text-align: left;
 }
 
 .intro {
