@@ -32,7 +32,7 @@
 }
 
 .footer__link {
-    border-bottom: 2px solid var(--white);
+    border-bottom: 1px solid var(--white);
 }
 
 .footer__link--unstyled {
