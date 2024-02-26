@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../public/icons/">
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <title>Chrologia</title>
+</head>
+
+<body>
+    <header class="header">
+        <a class="header__logo link-unstyled" href="#">
+            <img class="logo__img" src="./public/icons/logo_chrologia.svg" alt="Logo de Chrologia">
+        </a>
+    </header>
+    <main class="main">
+        <section class="section">
+            <h1 class="intro__title">Préinscription</h1>
+            <form class="form" action="">
+                <div class="form__section">
+                    <h2 class="form__title">Informations Personnelles</h2>
+                    <div class="form__questions">
+                        <div class="form__info">
+                            <label class="form__label" for="prenom">Prénom *</label>
+                            <input class="form__input" id="prenom" type="text" name="prenom" required
+                                placeholder="Ex. Camille">
+                        </div>
+                        <div class="form__info">
+                            <label class="form__label" for="nom">Nom *</label>
+                            <input class="form__input" id="nom" type="text" name="nom" required
+                                placeholder="Ex. Dubois">
+                        </div>
+                        <div class="form__info">
+                            <label class="form__label" for="date">Date de naissance *</label>
+                            <input class="form__input" id="date" type="date" name="date" required
+                                placeholder="JJ/MM/AA">
+                        </div>
+                    </div>
+                </div>
+                <div class="form__section">
+                    <h2 class="form__title">Contact</h2>
+                    <div class="form__questions">
+                        <div class="form__info">
+                            <label class="form__label" for="email">Email *</label>
+                            <input class="form__input" id="email" type="email" name="email" required
+                                placeholder="Ex. azerty@gmail.com">
+                        </div>
+                        <div class="form__info">
+                            <label class="form__label" for="telephone">Téléphone</label>
+                            <input class="form__input" id="telephone" type="tel" name="telephone"
+                                placeholder="Ex. 08 20 20 20 20">
+                        </div>
+                    </div>
+                </div>
+                <div class="form__section">
+                    <h2 class="form__title">Compte</h2>
+                    <div class="form__questions">
+                        <div class="form__info">
+                            <label class="form__label" for="user">Nom d'utilisateur *</label>
+                            <input class="form__input" id="user" type="text" name="user" required
+                                placeholder="Ex. pseudo">
+                        </div>
+                        <div class="form__info">
+                            <label class="form__label" for="mdp">Mot de passe *</label>
+                            <input class="form__input" id="mdp" type="password" name="mdp" minlength="8" maxlength="20"
+                                required placeholder="Mot_de_passe">
+                        </div>
+                        <div class="form__info">
+                            <label class="form__label" for="mdpConfirm">Confirmation mot de passe *</label>
+                            <input class="form__input" id="mdpConfirm" type="password" name="mdpConfirm" minlength="8"
+                                maxlength="20" required placeholder="Mot_de_passe">
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="form__section form_section--last">
+                <div class="form__checkbox">
+                    <input type="checkbox" id="cguPdc" name="cguPdc" />
+                    <label for="cguPdc">En cliquant ici j’accepte les <a class="form__link" href="">Conditions
+                            d’utilisation</a> et la <a class="form__link" href="">Politique de Confidentialité</a>
+                        *</label>
+                </div>
+                <div class="form__checkbox">
+                    <input type="checkbox" id="data" name="data" />
+                    <label for="data">En cochant cette case, j'autorise Chrologia à partager mes données personnelles
+                        avec des partenaires dans le cadre de
+                        ses activités marketing et commerciales, dans le respect de sa <a class="form__link"
+                            href="">Politique de
+                            Confidentialité</a></label>
+                </div>
+                <div class="form__btn">
+                    <div class="section__btn btn">
+                        <button class="btn__text">Se Préinscrire</button>
+                    </div>
+                </div>
+                <div class="form__text">
+                    <p class="text">* champs obligatoires</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__items">
+            <div class="footer__item footer__item--center">
+                <a class="footer__link  footer__link--unstyled link-unstyled" href="#">
+                    <img class="footer__logo" src="./public/icons/logo_chrologia.svg" alt="Logo de Chrologia">
+                </a>
+            </div>
+            <div class="footer__item">
+                <h4 class="footer__title">Liens</h4>
+                <ul class="footer__list menu list-unstyled">
+                    <li class="menu__item">
+                        <a class="footer__link link-unstyled" href="./gestion-de-vos-donnees.html#policy">Politique de
+                            confidentialité</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="footer__link link-unstyled" href="./gestion-de-vos-donnees.html#cgu">Conditions
+                            d'utilisation</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="footer__link link-unstyled" href="./a-propos.html#about">À propos</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="footer__link link-unstyled" href="./a-propos.html#contact">Nous contacter</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <h4 class="footer__title">Contact</h4>
+                <a class="footer__link link-unstyled" href="mailto:chrologiapro@gmail.com">
+                    chrologiapro@gmail.com
+                </a>
+                <h4 class="footer__title">Réseaux sociaux</h4>
+                <ul class="footer__list footer__list--logos menu list-unstyled">
+                    <li class="menu__item">
+                        <a class="footer__link footer__link--unstyled link-unstyled"
+                            href="https://twitter.com/chrolo_gia"><img class="footer__logo"
+                                src="./public/icons/icon_twitter.svg" alt="Logo de X / Twitter"></a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="footer__link footer__link--unstyled link-unstyled" href="#"><img class="footer__logo"
+                                src="./public/icons/icon_instagram.svg" alt="Logo d'Instagram"></a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="footer__link footer__link--unstyled link-unstyled"
+                            href="https://www.linkedin.com/in/chrolo-gia-3584a52b6/"><img class="footer__logo"
+                                src="./public/icons/icon_linkedin.svg" alt="Logo de LinkedIn"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
