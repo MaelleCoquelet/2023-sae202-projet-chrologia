@@ -9,7 +9,7 @@
 
 
 .form {
-    padding: 0px 61px;
+    padding: 0px var(--space2);
 }
 
 .form__section {
