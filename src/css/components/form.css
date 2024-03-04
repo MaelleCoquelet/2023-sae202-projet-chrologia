@@ -7,6 +7,11 @@
     gap: var(--space3);
 }
 
+
+.form {
+    padding: 0px 61px;
+}
+
 .form__section {
     gap: var(--space2);
 }
