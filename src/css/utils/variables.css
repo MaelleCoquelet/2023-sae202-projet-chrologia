@@ -1,13 +1,14 @@
 :root {
-/* Color styles */
+    /* Color styles */
     --white: rgba(241, 243, 230, 1);
     --pink: rgba(247, 175, 157, 1);
     --dark-blue: rgba(42, 60, 77, 1);
     --light-blue: rgba(59, 86, 110, 1);
     --blue: rgba(48, 69, 88, 1);
+    --red: rgba(255, 63, 63, 1);
 
     /* Text-size styles */
-/* Text-size styles */
+
     --h1: 64px;
     --h2: 48px;
     --h3: 36px;
@@ -17,7 +18,7 @@
     --btn: 28px;
 
     --semibold: 600;
-    --bold: 700;  
+    --bold: 700;
 
     --uppercase: uppercase;
 
