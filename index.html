@@ -144,7 +144,7 @@
             </div>
         </section>
 
-        <section class="section">
+        <section class="section" x-data="{faqOuvert: false}">
             <h2 class="section__title">FAQ</h2>
             <ul class="faq list-unstyled">
                 <li class="faq__item">
@@ -160,7 +160,7 @@
                                     stroke-linejoin="round" />
                             </svg>
                         </div>
-                        <p class="faq__text">
+                        <p class="faq__text" id="faqAnswer1" x-show="faqOuvert">
                             Nous sommes trois étudiants en MMI, nous avons développé ce projet dans le cadre de nos
                             études,
                             avec
@@ -191,7 +191,7 @@
                                     stroke-linejoin="round" />
                             </svg>
                         </div>
-                        <p class="faq__text">
+                        <p class="faq__text" id="faqAnswer2" x-show="faqOuvert">
                             Le site final sera disponible à partir du 14 juin 2024. Chrologia sera compatible avec tous
                             les
                             navigateurs web et sera
@@ -212,7 +212,7 @@
                                     stroke-linejoin="round" />
                             </svg>
                         </div>
-                        <p class="faq__text">
+                        <p class="faq__text" id="faqAnswer3" x-show="faqOuvert">
                             Le site est totalement accessible et utilisable gratuitement&nbsp;!
                         </p>
                     </div>
@@ -230,7 +230,7 @@
                                     stroke-linejoin="round" />
                             </svg>
                         </div>
-                        <p class="faq__text">
+                        <p class="faq__text" id="faqAnswer4" x-show="faqOuvert">
                             L'abonnement à Chrologia offre une expérience sans publicité pour éviter les distractions.
                             De
                             plus,
@@ -256,7 +256,7 @@
                                     stroke-linejoin="round" />
                             </svg>
                         </div>
-                        <p class="faq__text">
+                        <p class="faq__text" id="faqAnswer5" x-show="faqOuvert">
                             Pour résilier votre abonnement, il vous suffit de vous rendre dans les paramètres de votre
                             compte et
                             de suivre les
