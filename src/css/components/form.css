@@ -36,9 +36,10 @@
 }
 
 .form__checkbox {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1em auto;
     gap: 30px;
+    align-items: center;
 }
 
 .form__title {
@@ -65,4 +66,31 @@
 .form__link {
     color: var(--pink);
     border-bottom: 1px solid var(--pink);
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    margin: 0;
+    color: var(--white);
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid var(--white);
+    border-radius: 2px;
+    display: grid;
+    place-content: center;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    opacity: 0;
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--white);
+    transform-origin: bottom left;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+input[type="checkbox"]:checked::before {
+    opacity: 1;
 }
