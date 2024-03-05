@@ -19,3 +19,8 @@
     align-items: center;
     border-bottom: 3px solid var(--light-blue);
 }
+
+.faqIsOuvert .faq__icon {
+    transform: rotate(180deg);
+    transition: all ease-in-out 0.4s;
+}
