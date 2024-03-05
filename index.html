@@ -144,12 +144,12 @@
             </div>
         </section>
 
-        <section class="section" x-data="{faqOuvert: false}">
+        <section class="section">
             <h2 class="section__title">FAQ</h2>
             <ul class="faq list-unstyled">
                 <li class="faq__item">
-                    <div class="content__faq">
-                        <div class="faq__question">
+                    <div class="content__faq" x-data="{faqOuvert: false}">
+                        <div class="faq__question" aria-controls="faqAnswer1" @click="faqOuvert = ! faqOuvert">
                             <h3 class="faq__title">
                                 Qui sommes-nous&nbsp;?
                             </h3>
@@ -179,8 +179,8 @@
                     </div>
                 </li>
                 <li class="faq__item">
-                    <div class="content--faq">
-                        <div class="faq__question">
+                    <div class="content--faq" x-data="{faqOuvert: false}">
+                        <div class="faq__question" aria-controls="faqAnswer2" @click="faqOuvert = ! faqOuvert">
                             <h3 class="faq__title">
                                 Où et quand puis-je utiliser Chrologia&nbsp;?
                             </h3>
@@ -200,8 +200,8 @@
                     </div>
                 </li>
                 <li class="faq__item">
-                    <div class="content__faq">
-                        <div class="faq__question">
+                    <div class="content__faq" x-data="{faqOuvert: false}">
+                        <div class="faq__question" aria-controls="faqAnswer3" @click="faqOuvert = ! faqOuvert">
                             <h3 class="faq__title">
                                 Ai-je besoin d'un abonnement&nbsp;?
                             </h3>
@@ -218,8 +218,8 @@
                     </div>
                 </li>
                 <li class="faq__item">
-                    <div class="content__faq">
-                        <div class="faq__question">
+                    <div class="content__faq" x-data="{faqOuvert: false}">
+                        <div class="faq__question" aria-controls="faqAnswer4" @click="faqOuvert = ! faqOuvert">
                             <h3 class="faq__title">
                                 Quels sont les avantages de l'abonnement&nbsp;?
                             </h3>
@@ -244,8 +244,8 @@
                     </div>
                 </li>
                 <li class="faq__item">
-                    <div class="content__faq">
-                        <div class="faq__question">
+                    <div class="content__faq" x-data="{faqOuvert: false}">
+                        <div class="faq__question" aria-controls="faqAnswer5" @click="faqOuvert = ! faqOuvert">
                             <h3 class="faq__title">
                                 Comment puis-je résilier mon abonnement&nbsp;?
                             </h3>
