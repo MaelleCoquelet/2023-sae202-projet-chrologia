@@ -3,7 +3,8 @@
     padding: 24px 17px;
 }
 
-.faq__question:hover {
+.faq__question:hover,
+.faqIsOuvert {
     cursor: pointer;
     background-color: var(--light-blue);
 }
