@@ -73,8 +73,16 @@
     padding-bottom: var(--space1);
 }
 
+.paragraph__title--small {
+    font-size: var(--body-taller);
+}
+
 .section__items {
     display: flex;
     flex-direction: column;
     gap: var(--space3);
+}
+
+.paragraph__text--space {
+    padding-bottom: var(--space1);
 }
