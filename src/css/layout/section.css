@@ -57,6 +57,24 @@
     gap: var(--space4);
 }
 
-.section__intro{
+.paragraph__intro {
     font-weight: var(--semibold);
+}
+
+.paragraph__content {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.paragraph__title {
+    font-size: var(--h3);
+    font-weight: var(--semibold);
+    padding-bottom: var(--space1);
+}
+
+.section__items {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space3);
 }

@@ -6,3 +6,7 @@
 .header--landing-page {
     padding: var(--space2) 153px;
 }
+
+.header--paragraph {
+    padding: 0px;
+}
