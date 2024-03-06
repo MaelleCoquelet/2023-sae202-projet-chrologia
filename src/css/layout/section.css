@@ -56,3 +56,7 @@
     justify-content: center;
     gap: var(--space4);
 }
+
+.section__intro{
+    font-weight: var(--semibold);
+}
