@@ -12,7 +12,10 @@
     justify-content: center;
 }
 
-.list__policy {}
+.list__policy {
+    list-style-type: disc;
+    padding-left: var(--space0);
+}
 
 .list__policy--number {
     display: flex;
