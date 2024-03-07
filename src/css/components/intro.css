@@ -29,3 +29,10 @@
 .intro__content--center {
     align-items: center;
 }
+
+.content__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
