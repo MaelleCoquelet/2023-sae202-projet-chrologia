@@ -6,7 +6,7 @@
 
 .list__item {
     display: grid;
-    grid-template-columns: 64px auto;
+    grid-template-columns: var(--space2) auto;
     gap: var(--space1);
     align-items: center;
     justify-content: center;
@@ -17,5 +17,5 @@
 .list__policy--number {
     display: flex;
     flex-direction: column;
-    gap: 36px;
+    gap: var(--space0);
 }
