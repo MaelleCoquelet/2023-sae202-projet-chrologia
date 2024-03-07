@@ -2,8 +2,12 @@
     padding: var(--space2) 153px;
 }
 
-.section--top {
+.section--landing {
     padding: 0px 153px 28px 153px;
+}
+
+.section--top {
+    padding-top: 0px;
 }
 
 .section--pink {
