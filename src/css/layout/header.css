@@ -1,10 +1,10 @@
 .header {
-    padding: var(--space2) 153px var(--space5) 153px;
+    padding: var(--space2) var(--spaceside) var(--space5) var(--spaceside);
     background-color: var(--dark-blue);
 }
 
 .header--landing-page {
-    padding: var(--space2) 153px;
+    padding: var(--space2) var(--spaceside);
 }
 
 .header--paragraph {

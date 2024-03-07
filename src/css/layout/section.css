@@ -1,9 +1,9 @@
 .section {
-    padding: var(--space2) 153px;
+    padding: var(--space2) var(--spaceside);
 }
 
 .section--landing {
-    padding: 0px 153px 28px 153px;
+    padding: 0px var(--spaceside) 28px var(--spaceside);
 }
 
 .section--top {
@@ -11,7 +11,7 @@
 }
 
 .section--pink {
-    padding: var(--space3) 153px;
+    padding: var(--space3) var(--spaceside);
     background-color: var(--white);
     color: var(--dark-blue);
 }
