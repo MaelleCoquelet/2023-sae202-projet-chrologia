@@ -9,13 +9,13 @@
 
     /* Text-size styles */
 
-    --h1: 64px;
-    --h2: 48px;
-    --h3: 36px;
-    --body: 24px;
-    --body-taller: 32px;
-    --body-small: 20px;
-    --btn: 28px;
+    --h1: 50px;
+    --h2: 42px;
+    --h3: 30px;
+    --body: 21px;
+    --body-taller: 24px;
+    --body-small: 14px;
+    --btn: 22px;
 
     --semibold: 600;
     --bold: 700;
@@ -23,11 +23,11 @@
     --uppercase: uppercase;
 
     --font-sans-serif: "Raleway", sans-serif;
-    --space0: 36px;
-    --space1: 48px;
-    --space2: 64px;
-    --space3: 72px;
-    --space4: 96px;
-    --space5: 128px;
+    --space0: 32px;
+    --space1: 40px;
+    --space2: 56px;
+    --space3: 64px;
+    --space4: 88px;
+    --space5: 120px;
     --spaceside: 153px
 }
