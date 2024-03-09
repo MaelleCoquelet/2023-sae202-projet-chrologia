@@ -6,7 +6,16 @@
 .footer__items {
     display: grid;
     grid-template-columns: repeat(3, fit-content(295px));
+    justify-content: center;
     gap: 208px;
+}
+
+@media screen and (max-width: 1340px) {
+    .footer__items {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space2);
+    }
 }
 
 .footer__item {
