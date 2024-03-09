@@ -7,6 +7,12 @@
     padding: var(--space2) var(--spaceside);
 }
 
+@media screen and (max-height: 800px) {
+    .header--landing-page {
+            padding: var(--space1) var(--spaceside);
+        }
+}
+
 .header--paragraph {
     padding: 0px;
 }

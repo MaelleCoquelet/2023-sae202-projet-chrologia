@@ -10,6 +10,18 @@
     text-align: left;
 }
 
+@media screen and (max-height: 800px) {
+    .intro__title--landing-page {
+        font-size: var(--h2);
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    .intro__title--landing-page {
+        font-size: var(--h2);
+    }
+}
+
 .intro {
     display: flex;
     flex-direction: column;
