@@ -6,11 +6,11 @@
 }
 
 .img--mockup {
-    max-width: 15vw;
-    min-width: 12vw;
+    max-width: 13vw;
+    min-width: 10vw;
 }
 
 .logo__img{
-    max-width: 18vw;
+    max-width: 15vw;
     height: auto;
 }
