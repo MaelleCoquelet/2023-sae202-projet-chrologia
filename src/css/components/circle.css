@@ -1,0 +1,59 @@
+#circle_purple {
+    .cls-1 {
+        fill: #F79DEE;
+        stroke-width: 0px;
+    }
+}
+
+#circle_white {
+    .cls-1 {
+        fill: #F1F3E6;
+        stroke-width: 0px;
+    }
+}
+
+#circle_blue {
+    .cls-1 {
+        fill: #AAD2F8;
+        stroke-width: 0px;
+    }
+}
+
+#circle_orange {
+    .cls-1 {
+        fill: #F7AF9D;
+        stroke-width: 0px;
+    }
+}
+
+#circle_purple,
+#circle_white,
+#circle_blue,
+#circle_orange {
+    filter: blur(110px);
+    opacity: 30%;
+    width: auto;
+    max-height: 30vw;
+    z-index: -1;
+    position: absolute;
+}
+
+#circle_purple {
+    top: 0px;
+    left: 0px;
+}
+
+#circle_white {
+    top: 0px;
+    right: 0px;
+}
+
+#circle_blue {
+    bottom: 0px;
+    left: 0px;
+}
+
+#circle_orange {
+    bottom: 0px;
+    right: 0px;
+}
