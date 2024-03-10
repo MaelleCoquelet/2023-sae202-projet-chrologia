@@ -1,7 +1,6 @@
 .header {
     padding: var(--space2) var(--spaceside) var(--space5) var(--spaceside);
     background-color: var(--dark-blue);
-    z-index: 1;
 }
 
 .header--landing-page {
@@ -10,8 +9,8 @@
 
 @media screen and (max-height: 800px) {
     .header--landing-page {
-            padding: var(--space1) var(--spaceside);
-        }
+        padding: var(--space1) var(--spaceside);
+    }
 }
 
 .header--paragraph {

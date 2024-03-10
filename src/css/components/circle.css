@@ -31,29 +31,34 @@
 #circle_blue,
 #circle_orange {
     filter: blur(110px);
-    opacity: 30%;
-    width: auto;
-    max-height: 30vw;
+    opacity: 35%;
+    height: auto;
+    min-width: 15vw;
     z-index: -1;
     position: absolute;
 }
 
 #circle_purple {
-    top: 0px;
-    left: 0px;
+    max-width: 30vw;
+    top: -70vh;
+    left: -150px;
 }
 
 #circle_white {
-    top: 0px;
-    right: 0px;
+    max-width: 25vw;
+    top: -50vh;
+    right: -100px;
 }
 
 #circle_blue {
-    bottom: 0px;
-    left: 0px;
+    opacity: 40%;
+    max-width: 15vw;
+    bottom: -15vh;
+    left: -60px;
 }
 
 #circle_orange {
-    bottom: 0px;
-    right: 0px;
+    max-width: 20vw;
+    bottom: -20vh;
+    right: -80px;
 }
