@@ -7,6 +7,11 @@
     --blue: rgba(48, 69, 88, 1);
     --red: rgba(255, 63, 63, 1);
 
+    --circlePink: #F79DEE;
+    --circleWhite: #F1F3E6;
+    --circleBlue: #AAD2F8;
+    --circleOrange: #F7AF9D;
+
     /* Text-size styles */
 
     --h1: 50px;

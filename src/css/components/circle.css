@@ -1,28 +1,52 @@
 #circle_purple {
     .cls-1 {
-        fill: #F79DEE;
+        fill:var(--circlePink);
         stroke-width: 0px;
     }
 }
 
 #circle_white {
     .cls-1 {
-        fill: #F1F3E6;
+        fill:var(--circleWhite);
         stroke-width: 0px;
     }
 }
 
 #circle_blue {
     .cls-1 {
-        fill: #AAD2F8;
+        fill:var(--circleBlue);
         stroke-width: 0px;
     }
 }
 
 #circle_orange {
     .cls-1 {
-        fill: #F7AF9D;
+        fill: var(--circleOrange);
         stroke-width: 0px;
+    }
+}
+
+@keyframes colorChangePinkToBlue {
+
+    0%,
+    100% {
+        fill: var(--circlePink);
+    }
+
+    50% {
+        fill: var(--circleBlue);
+    }
+}
+
+@keyframes colorChangeWhiteToOrange {
+
+    0%,
+    100% {
+        fill: var(--circleWhite);
+    }
+
+    50% {
+        fill: var(--circleOrange);
     }
 }
 
@@ -44,6 +68,12 @@
     left: -150px;
 }
 
+#circle_purple {
+    .cls-1 {
+        animation: colorChangePinkToBlue 5s infinite alternate;
+    }
+}
+
 #circle_white {
     max-width: 25vw;
     top: -50vh;
@@ -61,4 +91,10 @@
     max-width: 20vw;
     bottom: -20vh;
     right: -80px;
+}
+
+#circle_orange {
+    .cls-1 {
+        animation: colorChangeWhiteToOrange 5s infinite alternate;
+    }
 }
