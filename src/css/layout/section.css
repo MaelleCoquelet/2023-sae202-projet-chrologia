@@ -1,9 +1,11 @@
 .section {
     padding: var(--space2) var(--spaceside);
+    z-index: 1;
 }
 
 .section--landing {
     padding: 0px var(--spaceside) 28px var(--spaceside);
+    position: relative;
 }
 
 .section--top {
@@ -14,6 +16,7 @@
     padding: var(--space3) var(--spaceside);
     background-color: var(--white);
     color: var(--dark-blue);
+    position: relative;
 }
 
 .section__title {

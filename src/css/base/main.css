@@ -10,6 +10,7 @@ body {
     font-family: var(--font-sans-serif);
     color: var(--white);
     font-size: var(--body);
+    overflow-x: hidden;
 }
 
 h1 {
