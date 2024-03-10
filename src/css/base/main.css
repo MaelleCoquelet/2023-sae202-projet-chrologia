@@ -34,13 +34,14 @@ header {
 
 button,
 input,
-textarea {
+textarea, fieldset {
     appearance: none;
     border: none;
     background: none;
     outline: none;
     padding: 0;
     cursor: pointer;
+    border-radius: none;
 }
 
 .link-unstyled {
