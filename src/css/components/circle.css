@@ -77,7 +77,7 @@
 #circle_white {
     max-width: 25vw;
     top: -50vh;
-    right: -100px;
+    right: 0px;
 }
 
 #circle_blue {
@@ -90,7 +90,7 @@
 #circle_orange {
     max-width: 20vw;
     bottom: -20vh;
-    right: -80px;
+    right: 0px;
 }
 
 #circle_orange {

@@ -11,6 +11,8 @@ body {
     color: var(--white);
     font-size: var(--body);
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -35,7 +37,8 @@ header {
 
 button,
 input,
-textarea, fieldset {
+textarea,
+fieldset {
     appearance: none;
     border: none;
     background: none;
